@@ -1,0 +1,16 @@
+digraph G{
+graph[overlap=true, fontsize=1];
+node[shape=ellipse, fontname=Helvetica,fixedsize=false];
+nodo426[label="Id:426\nNombre:hora\nImage Width: 1240 Image Height: 960\nPixel Width: 20 Pixel Height: 20" ];
+nodo318[label="Id:318\nNombre:bmo\nImage Width: 220 Image Height: 280\nPixel Width: 20 Pixel Height: 20" ];
+nodo426->nodo318 [label="Iz" color="dodgerblue" ]
+nodo318[label="Id:318\nNombre:bmo\nImage Width: 220 Image Height: 280\nPixel Width: 20 Pixel Height: 20" ];
+nodo653[label="Id:653\nNombre:corrin\nImage Width: 560 Image Height: 650\nPixel Width: 5 Pixel Height: 5" ];
+nodo318->nodo653 [label="De" color="red" ]
+nodo426[label="Id:426\nNombre:hora\nImage Width: 1240 Image Height: 960\nPixel Width: 20 Pixel Height: 20" ];
+nodo761[label="Id:761\nNombre:pokemon\nImage Width: 570 Image Height: 510\nPixel Width: 30 Pixel Height: 30" ];
+nodo426->nodo761 [label="De" color="red" ]
+nodo761[label="Id:761\nNombre:pokemon\nImage Width: 570 Image Height: 510\nPixel Width: 30 Pixel Height: 30" ];
+nodo353[label="Id:353\nNombre:tux\nImage Width: 480 Image Height: 580\nPixel Width: 10 Pixel Height: 10" ];
+nodo761->nodo353 [label="De" color="red" ]
+}

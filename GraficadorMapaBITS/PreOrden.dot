@@ -1,0 +1,18 @@
+digraph G{
+subgraph cluster_1{
+ style=filled; color = skyblue; 
+node [shape=box];
+capa761[label = pokemon];
+capa318[label =bmo];
+capa761->capa318
+capa318[label = bmo];
+capa426[label =hora];
+capa318->capa426
+capa426[label = hora];
+capa353[label =tux];
+capa426->capa353
+capa353[label = tux];
+capa761[label =pokemon];
+capa353->capa761
+}
+}

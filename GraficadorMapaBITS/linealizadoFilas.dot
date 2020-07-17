@@ -1,0 +1,5 @@
+digraph G{
+subgraph cluster_1{
+ style=filled; color = skyblue; 
+node [shape=box];
+capa152[label =" #Nodo152 (8,12) #B62B42"];

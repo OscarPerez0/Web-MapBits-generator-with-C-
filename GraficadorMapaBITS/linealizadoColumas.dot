@@ -1,0 +1,271 @@
+digraph G{
+subgraph cluster_1{
+ style=filled; color = skyblue; 
+node [shape=box];
+capa16[label =" #Nodo16 (1,2) #26453F"];
+capa17[label =" #Nodo17 (1,3) #26413C"];
+capa16->capa17
+capa17[label =" #Nodo17 (1,3) #26413C"];
+capa18[label =" #Nodo18 (1,4) #27423D"];
+capa17->capa18
+capa18[label =" #Nodo18 (1,4) #27423D"];
+capa19[label =" #Nodo19 (1,5) #27413E"];
+capa18->capa19
+capa19[label =" #Nodo19 (1,5) #27413E"];
+capa20[label =" #Nodo20 (1,6) #24413F"];
+capa19->capa20
+capa20[label =" #Nodo20 (1,6) #24413F"];
+capa21[label =" #Nodo21 (1,7) #24413F"];
+capa20->capa21
+capa21[label =" #Nodo21 (1,7) #24413F"];
+capa22[label =" #Nodo22 (1,8) #26403F"];
+capa21->capa22
+capa22[label =" #Nodo22 (1,8) #26403F"];
+capa23[label =" #Nodo23 (1,9) #23413F"];
+capa22->capa23
+capa23[label =" #Nodo23 (1,9) #23413F"];
+capa24[label =" #Nodo24 (1,10) #23413F"];
+capa23->capa24
+capa24[label =" #Nodo24 (1,10) #23413F"];
+capa25[label =" #Nodo25 (1,11) #23423D"];
+capa24->capa25
+capa25[label =" #Nodo25 (1,11) #23423D"];
+capa26[label =" #Nodo26 (1,12) #27413E"];
+capa25->capa26
+capa26[label =" #Nodo26 (1,12) #27413E"];
+capa27[label =" #Nodo27 (1,13) #27423B"];
+capa26->capa27
+capa27[label =" #Nodo27 (1,13) #27423B"];
+capa29[label =" #Nodo29 (2,1) #1E4437"];
+capa27->capa29
+capa29[label =" #Nodo29 (2,1) #1E4437"];
+capa30[label =" #Nodo30 (2,2) #66C5AF"];
+capa29->capa30
+capa30[label =" #Nodo30 (2,2) #66C5AF"];
+capa36[label =" #Nodo36 (2,8) #5DC8AC"];
+capa30->capa36
+capa36[label =" #Nodo36 (2,8) #5DC8AC"];
+capa38[label =" #Nodo38 (2,10) #6BC4B2"];
+capa36->capa38
+capa38[label =" #Nodo38 (2,10) #6BC4B2"];
+capa40[label =" #Nodo40 (2,12) #65C5BA"];
+capa38->capa40
+capa40[label =" #Nodo40 (2,12) #65C5BA"];
+capa41[label =" #Nodo41 (2,13) #62CCB5"];
+capa40->capa41
+capa41[label =" #Nodo41 (2,13) #62CCB5"];
+capa42[label =" #Nodo42 (2,14) #264138"];
+capa41->capa42
+capa42[label =" #Nodo42 (2,14) #264138"];
+capa43[label =" #Nodo43 (3,1) #24483C"];
+capa42->capa43
+capa43[label =" #Nodo43 (3,1) #24483C"];
+capa44[label =" #Nodo44 (3,2) #64C5B1"];
+capa43->capa44
+capa44[label =" #Nodo44 (3,2) #64C5B1"];
+capa51[label =" #Nodo51 (3,9) #1C4A3D"];
+capa44->capa51
+capa51[label =" #Nodo51 (3,9) #1C4A3D"];
+capa55[label =" #Nodo55 (3,13) #63C6B2"];
+capa51->capa55
+capa55[label =" #Nodo55 (3,13) #63C6B2"];
+capa56[label =" #Nodo56 (3,14) #28433A"];
+capa55->capa56
+capa56[label =" #Nodo56 (3,14) #28433A"];
+capa57[label =" #Nodo57 (4,1) #25493D"];
+capa56->capa57
+capa57[label =" #Nodo57 (4,1) #25493D"];
+capa58[label =" #Nodo58 (4,2) #63C6B1"];
+capa57->capa58
+capa58[label =" #Nodo58 (4,2) #63C6B1"];
+capa65[label =" #Nodo65 (4,9) #1E4A3D"];
+capa58->capa65
+capa65[label =" #Nodo65 (4,9) #1E4A3D"];
+capa70[label =" #Nodo70 (4,14) #28433A"];
+capa65->capa70
+capa70[label =" #Nodo70 (4,14) #28433A"];
+capa71[label =" #Nodo71 (5,1) #244A3D"];
+capa70->capa71
+capa71[label =" #Nodo71 (5,1) #244A3D"];
+capa72[label =" #Nodo72 (5,2) #64C5B2"];
+capa71->capa72
+capa72[label =" #Nodo72 (5,2) #64C5B2"];
+capa75[label =" #Nodo75 (5,5) #577164"];
+capa72->capa75
+capa75[label =" #Nodo75 (5,5) #577164"];
+capa78[label =" #Nodo78 (5,8) #6BC6B4"];
+capa75->capa78
+capa78[label =" #Nodo78 (5,8) #6BC6B4"];
+capa79[label =" #Nodo79 (5,9) #1E483E"];
+capa78->capa79
+capa79[label =" #Nodo79 (5,9) #1E483E"];
+capa80[label =" #Nodo80 (5,10) #66C5AF"];
+capa79->capa80
+capa80[label =" #Nodo80 (5,10) #66C5AF"];
+capa82[label =" #Nodo82 (5,12) #5FC0AC"];
+capa80->capa82
+capa82[label =" #Nodo82 (5,12) #5FC0AC"];
+capa83[label =" #Nodo83 (5,13) #61C5AB"];
+capa82->capa83
+capa83[label =" #Nodo83 (5,13) #61C5AB"];
+capa84[label =" #Nodo84 (5,14) #2A453C"];
+capa83->capa84
+capa84[label =" #Nodo84 (5,14) #2A453C"];
+capa85[label =" #Nodo85 (6,1) #22483B"];
+capa84->capa85
+capa85[label =" #Nodo85 (6,1) #22483B"];
+capa86[label =" #Nodo86 (6,2) #63C6B1"];
+capa85->capa86
+capa86[label =" #Nodo86 (6,2) #63C6B1"];
+capa89[label =" #Nodo89 (6,5) #4C6A5E"];
+capa86->capa89
+capa89[label =" #Nodo89 (6,5) #4C6A5E"];
+capa92[label =" #Nodo92 (6,8) #68C6B4"];
+capa89->capa92
+capa92[label =" #Nodo92 (6,8) #68C6B4"];
+capa93[label =" #Nodo93 (6,9) #204840"];
+capa92->capa93
+capa93[label =" #Nodo93 (6,9) #204840"];
+capa94[label =" #Nodo94 (6,10) #67C4B2"];
+capa93->capa94
+capa94[label =" #Nodo94 (6,10) #67C4B2"];
+capa96[label =" #Nodo96 (6,12) #66C4B4"];
+capa94->capa96
+capa96[label =" #Nodo96 (6,12) #66C4B4"];
+capa97[label =" #Nodo97 (6,13) #64C8B0"];
+capa96->capa97
+capa97[label =" #Nodo97 (6,13) #64C8B0"];
+capa98[label =" #Nodo98 (6,14) #254339"];
+capa97->capa98
+capa98[label =" #Nodo98 (6,14) #254339"];
+capa99[label =" #Nodo99 (7,1) #21473A"];
+capa98->capa99
+capa99[label =" #Nodo99 (7,1) #21473A"];
+capa100[label =" #Nodo100 (7,2) #64C5B2"];
+capa99->capa100
+capa100[label =" #Nodo100 (7,2) #64C5B2"];
+capa103[label =" #Nodo103 (7,5) #4F6A61"];
+capa100->capa103
+capa103[label =" #Nodo103 (7,5) #4F6A61"];
+capa106[label =" #Nodo106 (7,8) #6AC1B1"];
+capa103->capa106
+capa106[label =" #Nodo106 (7,8) #6AC1B1"];
+capa108[label =" #Nodo108 (7,10) #64C6AD"];
+capa106->capa108
+capa108[label =" #Nodo108 (7,10) #64C6AD"];
+capa109[label =" #Nodo109 (7,11) #45B0DA"];
+capa108->capa109
+capa109[label =" #Nodo109 (7,11) #45B0DA"];
+capa111[label =" #Nodo111 (7,13) #63C7AF"];
+capa109->capa111
+capa111[label =" #Nodo111 (7,13) #63C7AF"];
+capa112[label =" #Nodo112 (7,14) #27453B"];
+capa111->capa112
+capa112[label =" #Nodo112 (7,14) #27453B"];
+capa113[label =" #Nodo113 (8,1) #204639"];
+capa112->capa113
+capa113[label =" #Nodo113 (8,1) #204639"];
+capa114[label =" #Nodo114 (8,2) #63C6B1"];
+capa113->capa114
+capa114[label =" #Nodo114 (8,2) #63C6B1"];
+capa121[label =" #Nodo121 (8,9) #6EBFB9"];
+capa114->capa121
+capa121[label =" #Nodo121 (8,9) #6EBFB9"];
+capa122[label =" #Nodo122 (8,10) #66C5AD"];
+capa121->capa122
+capa122[label =" #Nodo122 (8,10) #66C5AD"];
+capa123[label =" #Nodo123 (8,11) #67BDB0"];
+capa122->capa123
+capa123[label =" #Nodo123 (8,11) #67BDB0"];
+capa126[label =" #Nodo126 (8,14) #26453D"];
+capa123->capa126
+capa126[label =" #Nodo126 (8,14) #26453D"];
+capa127[label =" #Nodo127 (9,1) #254B3E"];
+capa126->capa127
+capa127[label =" #Nodo127 (9,1) #254B3E"];
+capa128[label =" #Nodo128 (9,2) #63C6B2"];
+capa127->capa128
+capa128[label =" #Nodo128 (9,2) #63C6B2"];
+capa134[label =" #Nodo134 (9,8) #65C2AF"];
+capa128->capa134
+capa134[label =" #Nodo134 (9,8) #65C2AF"];
+capa135[label =" #Nodo135 (9,9) #224B77"];
+capa134->capa135
+capa135[label =" #Nodo135 (9,9) #224B77"];
+capa136[label =" #Nodo136 (9,10) #66C3B0"];
+capa135->capa136
+capa136[label =" #Nodo136 (9,10) #66C3B0"];
+capa138[label =" #Nodo138 (9,12) #66C5AD"];
+capa136->capa138
+capa138[label =" #Nodo138 (9,12) #66C5AD"];
+capa140[label =" #Nodo140 (9,14) #27453B"];
+capa138->capa140
+capa140[label =" #Nodo140 (9,14) #27453B"];
+capa141[label =" #Nodo141 (10,1) #23493C"];
+capa140->capa141
+capa141[label =" #Nodo141 (10,1) #23493C"];
+capa142[label =" #Nodo142 (10,2) #66C7B3"];
+capa141->capa142
+capa142[label =" #Nodo142 (10,2) #66C7B3"];
+capa144[label =" #Nodo144 (10,4) #71BAA6"];
+capa142->capa144
+capa144[label =" #Nodo144 (10,4) #71BAA6"];
+capa146[label =" #Nodo146 (10,6) #70B9A6"];
+capa144->capa146
+capa146[label =" #Nodo146 (10,6) #70B9A6"];
+capa147[label =" #Nodo147 (10,7) #70B9A6"];
+capa146->capa147
+capa147[label =" #Nodo147 (10,7) #70B9A6"];
+capa148[label =" #Nodo148 (10,8) #6BC2B1"];
+capa147->capa148
+capa148[label =" #Nodo148 (10,8) #6BC2B1"];
+capa149[label =" #Nodo149 (10,9) #66C5B1"];
+capa148->capa149
+capa149[label =" #Nodo149 (10,9) #66C5B1"];
+capa151[label =" #Nodo151 (10,11) #66C5AD"];
+capa149->capa151
+capa151[label =" #Nodo151 (10,11) #66C5AD"];
+capa153[label =" #Nodo153 (10,13) #65C8B3"];
+capa151->capa153
+capa153[label =" #Nodo153 (10,13) #65C8B3"];
+capa154[label =" #Nodo154 (10,14) #27453B"];
+capa153->capa154
+capa154[label =" #Nodo154 (10,14) #27453B"];
+capa156[label =" #Nodo156 (11,2) #214A44"];
+capa154->capa156
+capa156[label =" #Nodo156 (11,2) #214A44"];
+capa157[label =" #Nodo157 (11,3) #1F4641"];
+capa156->capa157
+capa157[label =" #Nodo157 (11,3) #1F4641"];
+capa158[label =" #Nodo158 (11,4) #1E4540"];
+capa157->capa158
+capa158[label =" #Nodo158 (11,4) #1E4540"];
+capa159[label =" #Nodo159 (11,5) #1F4341"];
+capa158->capa159
+capa159[label =" #Nodo159 (11,5) #1F4341"];
+capa160[label =" #Nodo160 (11,6) #214543"];
+capa159->capa160
+capa160[label =" #Nodo160 (11,6) #214543"];
+capa161[label =" #Nodo161 (11,7) #1F4341"];
+capa160->capa161
+capa161[label =" #Nodo161 (11,7) #1F4341"];
+capa162[label =" #Nodo162 (11,8) #1E4540"];
+capa161->capa162
+capa162[label =" #Nodo162 (11,8) #1E4540"];
+capa163[label =" #Nodo163 (11,9) #1D4441"];
+capa162->capa163
+capa163[label =" #Nodo163 (11,9) #1D4441"];
+capa164[label =" #Nodo164 (11,10) #1C4340"];
+capa163->capa164
+capa164[label =" #Nodo164 (11,10) #1C4340"];
+capa165[label =" #Nodo165 (11,11) #1B423F"];
+capa164->capa165
+capa165[label =" #Nodo165 (11,11) #1B423F"];
+capa166[label =" #Nodo166 (11,12) #1D413D"];
+capa165->capa166
+capa166[label =" #Nodo166 (11,12) #1D413D"];
+capa167[label =" #Nodo167 (11,13) #254945"];
+capa166->capa167
+capa167[label =" #Nodo167 (11,13) #254945"];
+}
+}

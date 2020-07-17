@@ -1,0 +1,644 @@
+digraph Logico{
+
+node[shape=box];
+
+edge[style=bold, dir=both];
+
+nodo0[label="Capa#" pos="0,0!"];
+
+x1[label="x=1" pos = "240,0!"];
+
+x2[label="x=2" pos = "360,0!"];
+
+x3[label="x=3" pos = "480,0!"];
+
+x4[label="x=4" pos = "600,0!"];
+
+x5[label="x=5" pos = "720,0!"];
+
+x6[label="x=6" pos = "840,0!"];
+
+x7[label="x=7" pos = "960,0!"];
+
+x8[label="x=8" pos = "1080,0!"];
+
+x9[label="x=9" pos = "1200,0!"];
+
+x10[label="x=10" pos = "1320,0!"];
+
+x11[label="x=11" pos = "1440,0!"];
+
+y1[label="y=1" pos = "0,-240!"];
+
+y2[label="y=2" pos = "0,-360!"];
+
+y3[label="y=3" pos = "0,-480!"];
+
+y4[label="y=4" pos = "0,-600!"];
+
+y5[label="y=5" pos = "0,-720!"];
+
+y6[label="y=6" pos = "0,-840!"];
+
+y7[label="y=7" pos = "0,-960!"];
+
+y8[label="y=8" pos = "0,-1080!"];
+
+y9[label="y=9" pos = "0,-1200!"];
+
+y10[label="y=10" pos = "0,-1320!"];
+
+y11[label="y=11" pos = "0,-1440!"];
+
+y12[label="y=12" pos = "0,-1560!"];
+
+y13[label="y=13" pos = "0,-1680!"];
+
+y14[label="y=14" pos = "0,-1800!"];
+
+nodo1_2[label="#26453F" pos = "240,-360!"];
+
+nodo1_3[label="#26413C" pos = "240,-480!"];
+
+nodo1_4[label="#27423D" pos = "240,-600!"];
+
+nodo1_5[label="#27413E" pos = "240,-720!"];
+
+nodo1_6[label="#24413F" pos = "240,-840!"];
+
+nodo1_7[label="#24413F" pos = "240,-960!"];
+
+nodo1_8[label="#26403F" pos = "240,-1080!"];
+
+nodo1_9[label="#23413F" pos = "240,-1200!"];
+
+nodo1_10[label="#23413F" pos = "240,-1320!"];
+
+nodo1_11[label="#23423D" pos = "240,-1440!"];
+
+nodo1_12[label="#27413E" pos = "240,-1560!"];
+
+nodo1_13[label="#27423B" pos = "240,-1680!"];
+
+nodo2_1[label="#1E4437" pos = "360,-240!"];
+
+nodo2_2[label="#66C5AF" pos = "360,-360!"];
+
+nodo2_8[label="#5DC8AC" pos = "360,-1080!"];
+
+nodo2_10[label="#6BC4B2" pos = "360,-1320!"];
+
+nodo2_12[label="#65C5BA" pos = "360,-1560!"];
+
+nodo2_13[label="#62CCB5" pos = "360,-1680!"];
+
+nodo2_14[label="#264138" pos = "360,-1800!"];
+
+nodo3_1[label="#24483C" pos = "480,-240!"];
+
+nodo3_2[label="#64C5B1" pos = "480,-360!"];
+
+nodo3_9[label="#1C4A3D" pos = "480,-1200!"];
+
+nodo3_13[label="#63C6B2" pos = "480,-1680!"];
+
+nodo3_14[label="#28433A" pos = "480,-1800!"];
+
+nodo4_1[label="#25493D" pos = "600,-240!"];
+
+nodo4_2[label="#63C6B1" pos = "600,-360!"];
+
+nodo4_9[label="#1E4A3D" pos = "600,-1200!"];
+
+nodo4_14[label="#28433A" pos = "600,-1800!"];
+
+nodo5_1[label="#244A3D" pos = "720,-240!"];
+
+nodo5_2[label="#64C5B2" pos = "720,-360!"];
+
+nodo5_5[label="#577164" pos = "720,-720!"];
+
+nodo5_8[label="#6BC6B4" pos = "720,-1080!"];
+
+nodo5_9[label="#1E483E" pos = "720,-1200!"];
+
+nodo5_10[label="#66C5AF" pos = "720,-1320!"];
+
+nodo5_12[label="#5FC0AC" pos = "720,-1560!"];
+
+nodo5_13[label="#61C5AB" pos = "720,-1680!"];
+
+nodo5_14[label="#2A453C" pos = "720,-1800!"];
+
+nodo6_1[label="#22483B" pos = "840,-240!"];
+
+nodo6_2[label="#63C6B1" pos = "840,-360!"];
+
+nodo6_5[label="#4C6A5E" pos = "840,-720!"];
+
+nodo6_8[label="#68C6B4" pos = "840,-1080!"];
+
+nodo6_9[label="#204840" pos = "840,-1200!"];
+
+nodo6_10[label="#67C4B2" pos = "840,-1320!"];
+
+nodo6_12[label="#66C4B4" pos = "840,-1560!"];
+
+nodo6_13[label="#64C8B0" pos = "840,-1680!"];
+
+nodo6_14[label="#254339" pos = "840,-1800!"];
+
+nodo7_1[label="#21473A" pos = "960,-240!"];
+
+nodo7_2[label="#64C5B2" pos = "960,-360!"];
+
+nodo7_5[label="#4F6A61" pos = "960,-720!"];
+
+nodo7_8[label="#6AC1B1" pos = "960,-1080!"];
+
+nodo7_10[label="#64C6AD" pos = "960,-1320!"];
+
+nodo7_11[label="#45B0DA" pos = "960,-1440!"];
+
+nodo7_13[label="#63C7AF" pos = "960,-1680!"];
+
+nodo7_14[label="#27453B" pos = "960,-1800!"];
+
+nodo8_1[label="#204639" pos = "1080,-240!"];
+
+nodo8_2[label="#63C6B1" pos = "1080,-360!"];
+
+nodo8_9[label="#6EBFB9" pos = "1080,-1200!"];
+
+nodo8_10[label="#66C5AD" pos = "1080,-1320!"];
+
+nodo8_11[label="#67BDB0" pos = "1080,-1440!"];
+
+nodo8_14[label="#26453D" pos = "1080,-1800!"];
+
+nodo9_1[label="#254B3E" pos = "1200,-240!"];
+
+nodo9_2[label="#63C6B2" pos = "1200,-360!"];
+
+nodo9_8[label="#65C2AF" pos = "1200,-1080!"];
+
+nodo9_9[label="#224B77" pos = "1200,-1200!"];
+
+nodo9_10[label="#66C3B0" pos = "1200,-1320!"];
+
+nodo9_12[label="#66C5AD" pos = "1200,-1560!"];
+
+nodo9_14[label="#27453B" pos = "1200,-1800!"];
+
+nodo10_1[label="#23493C" pos = "1320,-240!"];
+
+nodo10_2[label="#66C7B3" pos = "1320,-360!"];
+
+nodo10_4[label="#71BAA6" pos = "1320,-600!"];
+
+nodo10_6[label="#70B9A6" pos = "1320,-840!"];
+
+nodo10_7[label="#70B9A6" pos = "1320,-960!"];
+
+nodo10_8[label="#6BC2B1" pos = "1320,-1080!"];
+
+nodo10_9[label="#66C5B1" pos = "1320,-1200!"];
+
+nodo10_11[label="#66C5AD" pos = "1320,-1440!"];
+
+nodo10_13[label="#65C8B3" pos = "1320,-1680!"];
+
+nodo10_14[label="#27453B" pos = "1320,-1800!"];
+
+nodo11_2[label="#214A44" pos = "1440,-360!"];
+
+nodo11_3[label="#1F4641" pos = "1440,-480!"];
+
+nodo11_4[label="#1E4540" pos = "1440,-600!"];
+
+nodo11_5[label="#1F4341" pos = "1440,-720!"];
+
+nodo11_6[label="#214543" pos = "1440,-840!"];
+
+nodo11_7[label="#1F4341" pos = "1440,-960!"];
+
+nodo11_8[label="#1E4540" pos = "1440,-1080!"];
+
+nodo11_9[label="#1D4441" pos = "1440,-1200!"];
+
+nodo11_10[label="#1C4340" pos = "1440,-1320!"];
+
+nodo11_11[label="#1B423F" pos = "1440,-1440!"];
+
+nodo11_12[label="#1D413D" pos = "1440,-1560!"];
+
+nodo11_13[label="#254945" pos = "1440,-1680!"];
+
+nodo0->x1;nodo0->y1;
+
+x1-> x2;
+
+x2-> x3;
+
+x3-> x4;
+
+x4-> x5;
+
+x5-> x6;
+
+x6-> x7;
+
+x7-> x8;
+
+x8-> x9;
+
+x9-> x10;
+
+x10-> x11;
+
+x11-> x1;
+
+y1->y2;
+
+y2->y3;
+
+y3->y4;
+
+y4->y5;
+
+y5->y6;
+
+y6->y7;
+
+y7->y8;
+
+y8->y9;
+
+y9->y10;
+
+y10->y11;
+
+y11->y12;
+
+y12->y13;
+
+y13->y14;
+
+y14->y1;
+
+y1->nodo2_1;
+
+y2->nodo1_2;
+
+y3->nodo1_3;
+
+y4->nodo1_4;
+
+y5->nodo1_5;
+
+y6->nodo1_6;
+
+y7->nodo1_7;
+
+y8->nodo1_8;
+
+y9->nodo1_9;
+
+y10->nodo1_10;
+
+y11->nodo1_11;
+
+y12->nodo1_12;
+
+y13->nodo1_13;
+
+y14->nodo2_14;
+
+x1->nodo1_2;
+
+x2->nodo2_1;
+
+x3->nodo3_1;
+
+x4->nodo4_1;
+
+x5->nodo5_1;
+
+x6->nodo6_1;
+
+x7->nodo7_1;
+
+x8->nodo8_1;
+
+x9->nodo9_1;
+
+x10->nodo10_1;
+
+x11->nodo11_2;
+
+nodo1_2->nodo1_3;
+
+nodo1_3->nodo1_4;
+
+nodo1_4->nodo1_5;
+
+nodo1_5->nodo1_6;
+
+nodo1_6->nodo1_7;
+
+nodo1_7->nodo1_8;
+
+nodo1_8->nodo1_9;
+
+nodo1_9->nodo1_10;
+
+nodo1_10->nodo1_11;
+
+nodo1_11->nodo1_12;
+
+nodo1_12->nodo1_13;
+
+nodo2_1->nodo2_2;
+
+nodo2_2->nodo2_8;
+
+nodo2_8->nodo2_10;
+
+nodo2_10->nodo2_12;
+
+nodo2_12->nodo2_13;
+
+nodo2_13->nodo2_14;
+
+nodo3_1->nodo3_2;
+
+nodo3_2->nodo3_9;
+
+nodo3_9->nodo3_13;
+
+nodo3_13->nodo3_14;
+
+nodo4_1->nodo4_2;
+
+nodo4_2->nodo4_9;
+
+nodo4_9->nodo4_14;
+
+nodo5_1->nodo5_2;
+
+nodo5_2->nodo5_5;
+
+nodo5_5->nodo5_8;
+
+nodo5_8->nodo5_9;
+
+nodo5_9->nodo5_10;
+
+nodo5_10->nodo5_12;
+
+nodo5_12->nodo5_13;
+
+nodo5_13->nodo5_14;
+
+nodo6_1->nodo6_2;
+
+nodo6_2->nodo6_5;
+
+nodo6_5->nodo6_8;
+
+nodo6_8->nodo6_9;
+
+nodo6_9->nodo6_10;
+
+nodo6_10->nodo6_12;
+
+nodo6_12->nodo6_13;
+
+nodo6_13->nodo6_14;
+
+nodo7_1->nodo7_2;
+
+nodo7_2->nodo7_5;
+
+nodo7_5->nodo7_8;
+
+nodo7_8->nodo7_10;
+
+nodo7_10->nodo7_11;
+
+nodo7_11->nodo7_13;
+
+nodo7_13->nodo7_14;
+
+nodo8_1->nodo8_2;
+
+nodo8_2->nodo8_9;
+
+nodo8_9->nodo8_10;
+
+nodo8_10->nodo8_11;
+
+nodo8_11->nodo8_14;
+
+nodo9_1->nodo9_2;
+
+nodo9_2->nodo9_8;
+
+nodo9_8->nodo9_9;
+
+nodo9_9->nodo9_10;
+
+nodo9_10->nodo9_12;
+
+nodo9_12->nodo9_14;
+
+nodo10_1->nodo10_2;
+
+nodo10_2->nodo10_4;
+
+nodo10_4->nodo10_6;
+
+nodo10_6->nodo10_7;
+
+nodo10_7->nodo10_8;
+
+nodo10_8->nodo10_9;
+
+nodo10_9->nodo10_11;
+
+nodo10_11->nodo10_13;
+
+nodo10_13->nodo10_14;
+
+nodo11_2->nodo11_3;
+
+nodo11_3->nodo11_4;
+
+nodo11_4->nodo11_5;
+
+nodo11_5->nodo11_6;
+
+nodo11_6->nodo11_7;
+
+nodo11_7->nodo11_8;
+
+nodo11_8->nodo11_9;
+
+nodo11_9->nodo11_10;
+
+nodo11_10->nodo11_11;
+
+nodo11_11->nodo11_12;
+
+nodo11_12->nodo11_13;
+
+nodo2_1->nodo3_1;
+
+nodo3_1->nodo4_1;
+
+nodo4_1->nodo5_1;
+
+nodo5_1->nodo6_1;
+
+nodo6_1->nodo7_1;
+
+nodo7_1->nodo8_1;
+
+nodo8_1->nodo9_1;
+
+nodo9_1->nodo10_1;
+
+nodo1_2->nodo2_2;
+
+nodo2_2->nodo3_2;
+
+nodo3_2->nodo4_2;
+
+nodo4_2->nodo5_2;
+
+nodo5_2->nodo6_2;
+
+nodo6_2->nodo7_2;
+
+nodo7_2->nodo8_2;
+
+nodo8_2->nodo9_2;
+
+nodo9_2->nodo10_2;
+
+nodo10_2->nodo11_2;
+
+nodo1_3->nodo11_3;
+
+nodo1_4->nodo10_4;
+
+nodo10_4->nodo11_4;
+
+nodo1_5->nodo5_5;
+
+nodo5_5->nodo6_5;
+
+nodo6_5->nodo7_5;
+
+nodo7_5->nodo11_5;
+
+nodo1_6->nodo10_6;
+
+nodo10_6->nodo11_6;
+
+nodo1_7->nodo10_7;
+
+nodo10_7->nodo11_7;
+
+nodo1_8->nodo2_8;
+
+nodo2_8->nodo5_8;
+
+nodo5_8->nodo6_8;
+
+nodo6_8->nodo7_8;
+
+nodo7_8->nodo9_8;
+
+nodo9_8->nodo10_8;
+
+nodo10_8->nodo11_8;
+
+nodo1_9->nodo3_9;
+
+nodo3_9->nodo4_9;
+
+nodo4_9->nodo5_9;
+
+nodo5_9->nodo6_9;
+
+nodo6_9->nodo8_9;
+
+nodo8_9->nodo9_9;
+
+nodo9_9->nodo10_9;
+
+nodo10_9->nodo11_9;
+
+nodo1_10->nodo2_10;
+
+nodo2_10->nodo5_10;
+
+nodo5_10->nodo6_10;
+
+nodo6_10->nodo7_10;
+
+nodo7_10->nodo8_10;
+
+nodo8_10->nodo9_10;
+
+nodo9_10->nodo11_10;
+
+nodo1_11->nodo7_11;
+
+nodo7_11->nodo8_11;
+
+nodo8_11->nodo10_11;
+
+nodo10_11->nodo11_11;
+
+nodo1_12->nodo2_12;
+
+nodo2_12->nodo5_12;
+
+nodo5_12->nodo6_12;
+
+nodo6_12->nodo9_12;
+
+nodo9_12->nodo11_12;
+
+nodo1_13->nodo2_13;
+
+nodo2_13->nodo3_13;
+
+nodo3_13->nodo5_13;
+
+nodo5_13->nodo6_13;
+
+nodo6_13->nodo7_13;
+
+nodo7_13->nodo10_13;
+
+nodo10_13->nodo11_13;
+
+nodo2_14->nodo3_14;
+
+nodo3_14->nodo4_14;
+
+nodo4_14->nodo5_14;
+
+nodo5_14->nodo6_14;
+
+nodo6_14->nodo7_14;
+
+nodo7_14->nodo8_14;
+
+nodo8_14->nodo9_14;
+
+nodo9_14->nodo10_14;
+}
